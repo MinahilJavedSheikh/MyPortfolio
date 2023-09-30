@@ -380,11 +380,24 @@
   width: 375px;
   height: 795px;
   top: 5410px;
+<<<<<<< HEAD
   background-image: url(/shape.png), url(/Contact.png);
   background-size: 265px 709.17px, cover;
   background-position: right center, center center;
   background-repeat: no-repeat, repeat;
 }
+=======
+  background-color: #6070FF;
+  background-image: url(/shape.png), url(/Contact.png); /* Choose the background images you want to keep */
+  background-size: 265px 709.17px, cover;
+  background-position: right, center center;
+  background-repeat: no-repeat, repeat;
+}
+
+.contact {
+  color: rgba(247, 247, 249, 1);
+}
+>>>>>>> 1bac8102f75a6da6d1f66eb1d1efb7609e216453
 
 .contact-section {
   width: 375px;
