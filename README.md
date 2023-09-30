@@ -1,17 +1,17 @@
-# My Project
+# My Portfolio
 
-This is a description of my project.
+Welcome to my portfolio! This is a showcase of my skills, projects, and experiences.
 
-## Installation
 
-To install this project, follow these steps:
+## About
+This portfolio serves as a personal website to introduce myself, highlight my skills, and showcase the projects I've worked on. It was designed using a Figma template and implemented with HTML and CSS.
 
-1. Clone the repository.
-2. Run `npm install` to install dependencies.
+## Technologies Used
+- HTML
+- CSS
 
-## Usage
+## Features
+- Professional and visually appealing design.
+- Sections for an introduction, skills, projects, and contact information.
+- Design for phone screen sizes.
 
-Here's how you can use this project:
-
-```javascript
-// Sample code
