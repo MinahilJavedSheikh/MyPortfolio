@@ -9,19 +9,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
 </head>
 <body class="container">
-    
     <header class="header">
         <div class="toolbar">
             <div class="logo">My Logo</div>
             <div class="hamburger">
-                <div></div>
-                <div></div>
-                <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
             </div>
+            <picture class="desktop" >
+                <img class="nav" src="nav.png" alt=" Portfolio About Contact">
+              </picture>
         </div>
+        
     </header>
 
-    <section class="background">
+    <section  class="background">
         <div class="intro " >
             <p >I'm Minahil. Glad to see you!</p>
         </div>
@@ -43,26 +46,41 @@
                 <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
+        </div>
     </section>
     <section class="grid-container">
-        
+        <!--  -->
             <article class="card">
-                <img class="snapshot" src="card1.jpg" alt="Snapshot">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="card1.jpg">
+                    <source media="(min-width: 769px)" srcset="card1.1.png">
+                    <img class="snapshot" src="fallback-image.jpg" alt="Snapshot">
+                  </picture>
+                  
+                <!-- <img class="snapshot" src="card1.jpg" alt="Snapshot"> -->
                 <div class="Left-Block">
                     <div class="layout">
                     <p class="Title">Tonic
                     <img class="frame" src="Frame 2.jpg" alt="Frame"></p>
                     <p class="Primary-Text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <img  src="Tags.png" alt="tags">
+                    <img class="tag" src="Tags.png" alt="tags">
                     <div class="Button">
                         <div class="subtext">See Project</div>
                     </div>
                 </div>
+                </div>
             </article>
+            <!--  -->
 
             <article class="card2">
-                <img class="snapshot" src="card2.jpg" alt="Snapshot">
-                <div class="Left-Block">
+                <!-- <img  class="snapshot" src="card2.jpg" alt="Snapshot"> -->
+                <picture class="display">
+                    <source media="(max-width: 768px)" srcset="card2.jpg">
+                    <source media="(min-width: 769px)" srcset="card2.1.jpg">
+                    <img class="snapshots" src="fallback-image.jpg" alt="Snapshot">
+                  </picture>
+                <div class="mobile" >
+                    <div class="Left-Block">
                     <div class="layout">
                     <p class="Title">Multi-Post <br> Stories
                     <img class="frame" src="Frame 2.jpg" alt="Frame"></p>
@@ -71,36 +89,95 @@
                     <div class="Button">
                         <div class="subtext">See Project</div>
                     </div>
+                    </div>
                 </div>
+                </div>
+                <div class="desktop">
+                    <div class="right-Block">
+                    <div class="layout">
+                    <p class="Title2 ">Multi-Post
+                        Stories
+                    <img class="frame" src="Framedk.jpg" alt="Frame"></p>
+                    <p class="PrimaryText">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                    <img class="tags" src="Tag.jpg" alt="tags">
+                    <div class="Button">
+                        <div class="subtext">See Project</div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                    
             </article>
 
             <article class="card">
-                <img class="snapshot" src="card3.jpg" alt="Snapshot">
-                <div class="Left-Block">
-                    <div class="layout">
-                    <p class="Title">Tonic
-                    <img class="frame" src="Frame 2.jpg" alt="Frame"></p>
-                    <p class="Primary-Text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <img  src="Tags.png" alt="tags">
-                    <div class="Button">
-                        <div class="subtext">See Project</div>
+                <picture>
+                    <source media="(max-width: 768px)" srcset="card3.jpg">
+                    <source media="(min-width: 769px)" srcset="card3.1.png">
+                    <img class="snapshot" src="fallback-image.jpg" alt="Snapshot">
+                  </picture>
+                <!-- <img class="snapshot" src="card3.jpg" alt="Snapshot"> -->
+                <div class="mobile">
+            <div class="Left-Block">
+                <div class="layout">
+                <p class="Title">Tonic
+                <img class="frame" src="Frame 2.jpg" alt="Frame"></p>
+                <p class="Primary-Text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <img class="tag" src="Tags.png" alt="tags">
+                <div class="Button">
+                    <div class="subtext">See Project</div>
+                </div>
+            </div>
+            </div>
+                </div>
+                <div class="desktop">
+                    <div class="Left-Block">
+                        <div class="layout">
+                        <p class="Title">Facebook 360
+                            <img class="frame" src="Framedk.jpg" alt="Frame"></p>
+                            <p class="Primary-Text">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                            <img class="tags" src="Tag.jpg" alt="tags">
+                        <div class="Button">
+                            <div class="subtext">See Project</div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </article>
 
             <article class="card2">
-                <img class="snapshot" src="card4.jpg" alt="Snapshot">
-                <div class="Left-Block">
+                <!-- <img class="snapshot" src="card4.jpg" alt="Snapshot"> -->
+                <picture>
+                    <source media="(max-width: 768px)" srcset="card4.jpg">
+                    <source media="(min-width: 769px)" srcset="card4.1.png">
+                    <img class="snapshots" src="fallback-image.jpg" alt="Snapshot">
+                  </picture>
+                  <div class="mobile" >
+                    <div class="Left-Block">
                     <div class="layout">
                     <p class="Title">Multi-Post <br> Stories
                     <img class="frame" src="Frame 2.jpg" alt="Frame"></p>
                     <p class="Primary-Text">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                     <img  src="Tags.png" alt="tags">
-                
+                    <div class="Button">
+                        <div class="subtext">See Project</div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="desktop">
+                    <div class="right-Block">
+                    <div class="layout">
+                    <p class="Title2 ">Uber Navigation
+                    <img class="frame" src="Framedks.jpg" alt="Frame"></p>
+                    <p class="PrimaryText">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                    <img class="tags" src="Tag.jpg" alt="tags">
                     <div class="Button">
                         <div class="subtext">See Project</div>
                     </div>
                 </div>
+                </div>
+                </div>
+                     
             </article>
 
      </section>
@@ -108,8 +185,8 @@
         <div class ="content-wrapper">
             <p class="section-title">About Myself</p>
             <p class = "section-text">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-            <div class = " endtext " > LET'S CONNECT</div>
-        <div class="social-icons">
+            <div class = " endtxt " > LET'S CONNECT</div>
+        <div class="social-icon">
             <div class="social-icons">
                 <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
                 <a href="#" class="icon"><i class="fab fa-linkedin-in"></i></a>
@@ -170,16 +247,21 @@
                     <p class="maintext">If you have an application you are interested 
                         in developing, a feature that you need built or a project that 
                         needs coding. I’d love to help with it!</p>
-               </div>
+               
+               <form action= "https://formspree.io/f/mdorpbpn" method = "post">
                 <form action="process_form.php" >
                     <input class="forminput" type="text" id="name" name="name" >
                     <input class="forminput" type="email" id="email" name="email">
                     <textarea class="textarea" placeholder="Write your message here..." ></textarea>
-                </form>
+                
                 <button class="lastbutton">
                     <span class="btext">Get in touch</span>
                 </button>
-                <hr class="line2">
+                
+            </form>
+        </form>
+    </div>
+    <hr class="line2">
                 </section>
 
 </body>
