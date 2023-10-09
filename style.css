@@ -676,6 +676,7 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0;
+
   /* text-align: justify; */
 
   /* width: 215px;
@@ -728,7 +729,7 @@
   /* width: 375px;
   height: 795px; */
   top: 5410px;
-  background-image: url(/shape.png), url(/Contact.png);
+  background-image: url('shape.png'), url('Contact.png');
   background-size: 265px 709.17px, cover;
   background-position: right center, center center;
   background-repeat: no-repeat, repeat;
@@ -739,7 +740,7 @@
     max-width: 1440px;
     height: 796px;
     top: 5125px;
-    background-image: url(./shapesdk.png), url(./Contactdk.jpg);
+    background-image: url('shapesdk.png'), url('Contactdk.jpg');
     background-size: 1290.66px 718.7px, cover;
     background-position: right center, center center;
     background-repeat: no-repeat, repeat;
