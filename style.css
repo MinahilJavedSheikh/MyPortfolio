@@ -676,7 +676,7 @@
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0;
-  text-align: justify;
+  /* text-align: justify; */
 
   /* width: 215px;
   height: 24px; */
@@ -739,7 +739,7 @@
     max-width: 1440px;
     height: 796px;
     top: 5125px;
-    background-image: url(/shapesdk.png), url(/Contactdk.jpg);
+    background-image: url(./shapesdk.png), url(./Contactdk.jpg);
     background-size: 1290.66px 718.7px, cover;
     background-position: right center, center center;
     background-repeat: no-repeat, repeat;
